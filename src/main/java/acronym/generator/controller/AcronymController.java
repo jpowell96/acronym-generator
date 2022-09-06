@@ -17,6 +17,7 @@ public class AcronymController {
 
         this.acronymService = acronymService;
         System.out.println("Hello");
+        System.out.println("Test");
     }
 
     @GetMapping("/generate")
